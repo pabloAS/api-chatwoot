@@ -1,6 +1,7 @@
 import express, { Request, Response } from "express";
 import cors from "cors";
 import Sender from "./service/initialVenomService";
+const port = process.env.PORT || 3333;
 const sender = new Sender();
 const app = express();
 
@@ -11,8 +12,8 @@ app.use(
   })
 );
 app.use(express.urlencoded({ extended: false }));
-app.listen(3333, () => {
-  console.log("app listening on port 3333");
+app.listen(port, () => {
+  console.log("app listening on port" + port);
 });
 app.get("/status", (req: Request, res: Response) => {
   return res.send({ qr_code: sender.qrCode, connected: sender.isConnected });
