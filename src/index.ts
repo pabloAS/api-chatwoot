@@ -4,7 +4,6 @@ import Sender from "./service/initialVenomService";
 const port = process.env.PORT || 3333;
 const sender = new Sender();
 const app = express();
-
 app.use(express.json());
 app.use(
   cors({

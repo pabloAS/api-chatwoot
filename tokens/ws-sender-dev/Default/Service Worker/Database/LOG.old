@@ -1,3 +1,2 @@
-2023/02/13-20:17:52.047 102c Reusing MANIFEST C:\Users\pablo\OneDrive\Documentos\www\nodejs\whatsboot\tokens\ws-sender-dev\Default\Service Worker\Database/MANIFEST-000001
-2023/02/13-20:17:52.048 102c Recovering log #3
-2023/02/13-20:17:52.049 102c Reusing old log C:\Users\pablo\OneDrive\Documentos\www\nodejs\whatsboot\tokens\ws-sender-dev\Default\Service Worker\Database/000003.log 
+2023/02/13-23:12:26.068 2ca8 Creating DB C:\Users\pablo\OneDrive\Documentos\www\nodejs\whatsboot\tokens\ws-sender-dev\Default\Service Worker\Database since it was missing.
+2023/02/13-23:12:26.078 2ca8 Reusing MANIFEST C:\Users\pablo\OneDrive\Documentos\www\nodejs\whatsboot\tokens\ws-sender-dev\Default\Service Worker\Database/MANIFEST-000001
