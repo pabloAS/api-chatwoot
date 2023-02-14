@@ -42,15 +42,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = __importDefault(require("express"));
 var cors_1 = __importDefault(require("cors"));
 var initialVenomService_1 = __importDefault(require("./service/initialVenomService"));
+var port = process.env.PORT || 3333;
 var sender = new initialVenomService_1.default();
 var app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use((0, cors_1.default)({
-    origin: "https://chatwoot-whats.web.app/",
+    origin: "*",
 }));
 app.use(express_1.default.urlencoded({ extended: false }));
-app.listen(3333, function () {
-    console.log("app listening on port 3333");
+app.listen(port, function () {
+    console.log("app listening on port" + port);
 });
 app.get("/status", function (req, res) {
     return res.send({ qr_code: sender.qrCode, connected: sender.isConnected });
