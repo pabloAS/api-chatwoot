@@ -1,0 +1,27 @@
+2023/02/13-21:12:07.061 4b4 Reusing MANIFEST C:\Users\pablo\OneDrive\Documentos\www\nodejs\whatsboot\tokens\ws-sender-dev\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/13-21:12:07.062 4b4 Recovering log #411
+2023/02/13-21:12:07.131 4b4 Reusing old log C:\Users\pablo\OneDrive\Documentos\www\nodejs\whatsboot\tokens\ws-sender-dev\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000411.log 
+2023/02/13-21:12:30.427 2f8c Level-0 table #428: started
+2023/02/13-21:12:30.511 2f8c Level-0 table #428: 1247064 bytes OK
+2023/02/13-21:12:30.514 2f8c Delete type=0 #411
+2023/02/13-21:13:27.817 22a8 Compacting 1@0 + 1@1 files
+2023/02/13-21:13:27.883 22a8 Generated table #429@0: 17027 keys, 517390 bytes
+2023/02/13-21:13:27.887 22a8 Generated table #430@0: 56 keys, 2327 bytes
+2023/02/13-21:13:27.887 22a8 Compacted 1@0 + 1@1 files => 519717 bytes
+2023/02/13-21:13:27.888 22a8 compacted to: files[ 0 2 15 0 0 0 0 ]
+2023/02/13-21:13:27.888 22a8 Delete type=2 #414
+2023/02/13-21:13:27.889 22a8 Delete type=2 #428
+2023/02/13-21:13:38.036 4180 Compacting 1@1 + 10@2 files
+2023/02/13-21:13:38.253 4180 Generated table #431@1: 29098 keys, 2259663 bytes
+2023/02/13-21:13:38.498 4180 Generated table #432@1: 41700 keys, 2232315 bytes
+2023/02/13-21:13:38.601 4180 Generated table #433@1: 3857 keys, 2167216 bytes
+2023/02/13-21:13:38.745 4180 Generated table #434@1: 2746 keys, 2152383 bytes
+2023/02/13-21:13:38.939 4180 Generated table #435@1: 3572 keys, 2160084 bytes
+2023/02/13-21:13:39.194 4180 Generated table #436@1: 24477 keys, 2218158 bytes
+2023/02/13-21:13:39.382 4180 Generated table #437@1: 26992 keys, 2262941 bytes
+2023/02/13-21:13:39.578 4180 Generated table #438@1: 15249 keys, 2152846 bytes
+2023/02/13-21:13:39.786 4180 Generated table #439@1: 97215 keys, 2245119 bytes
+2023/02/13-21:13:40.047 4180 Generated table #440@1: 103970 keys, 2253906 bytes
+2023/02/13-21:13:40.072 4180 Generated table #441@1: 10327 keys, 226648 bytes
+2023/02/13-21:13:40.072 4180 Compacted 1@1 + 10@2 files => 22331279 bytes
+2023/02/13-21:13:40.074 4180 compacted to: files[ 0 1 16 0 0 0 0 ]
