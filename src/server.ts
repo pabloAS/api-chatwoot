@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://chatwoot-whats.web.app/",
+    origin: "*",
   })
 );
 app.use(express.urlencoded({ extended: false }));
